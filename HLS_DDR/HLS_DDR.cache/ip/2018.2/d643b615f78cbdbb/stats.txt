@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Mon Sep 03 08:04:30 UTC 2018
+VLNV: xilinx.com:ip:smartconnect:1.0
+SynthRuntime: 173

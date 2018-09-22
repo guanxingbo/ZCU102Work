@@ -1,0 +1,14 @@
+20:03:57 **** Auto Build of configuration Debug for project testprj0911 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 Linux gcc compiler
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:49:10: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+src/subdir.mk:18: recipe for target 'src/helloworld.o' failed
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+
+20:03:57 Build Finished (took 383ms)
+

@@ -1,0 +1,11 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+WARNING: [COSIM-369] AXI_master port 'gmem' has a depth of '10240'. Insufficient depth may result in simulation mismatch or freeze.
+   Build using "/home/guan/Xilinx/Vivado/2018.2/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling apatb_ddr_hls_test.cpp
+   Compiling top.cc_pre.cc.tb.cc
+   Compiling tb.cc_pre.cc.tb.cc
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+ERROR: [COSIM-360] Aborting co-simulation: C TB simulation failed.
+ERROR: [COSIM-320] C TB testing failed, stop generating test vectors. Please check C TB or re-run cosim.

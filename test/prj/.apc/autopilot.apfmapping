@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="top.cc" path="/home/guan/Xilinx/Project/test/top.cc"/>
+    <originFiles name="header.h" path="/home/guan/Xilinx/Project/test/header.h"/>
+  </source>
+  <testbench>
+    <originFiles name="tb.cc" path="/home/guan/Xilinx/Project/test/tb.cc"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

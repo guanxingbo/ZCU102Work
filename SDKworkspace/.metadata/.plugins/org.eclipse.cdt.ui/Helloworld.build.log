@@ -1,0 +1,51 @@
+15:57:02 **** Build of configuration Debug for project Helloworld ****
+make all 
+Building file: ../src/config.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I../../Helloworld_bsp/psu_cortexr5_0/include -I/home/guan/workspace/Helloworld/src -c -fmessage-length=0 -MT"src/config.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -MMD -MP -MF"src/config.d" -MT"src/config.o" -o "src/config.o" "../src/config.c"
+Finished building: ../src/config.c
+ 
+Building file: ../src/gic_setup.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I../../Helloworld_bsp/psu_cortexr5_0/include -I/home/guan/workspace/Helloworld/src -c -fmessage-length=0 -MT"src/gic_setup.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -MMD -MP -MF"src/gic_setup.d" -MT"src/gic_setup.o" -o "src/gic_setup.o" "../src/gic_setup.c"
+Finished building: ../src/gic_setup.c
+ 
+Building file: ../src/ipi.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I../../Helloworld_bsp/psu_cortexr5_0/include -I/home/guan/workspace/Helloworld/src -c -fmessage-length=0 -MT"src/ipi.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -MMD -MP -MF"src/ipi.d" -MT"src/ipi.o" -o "src/ipi.o" "../src/ipi.c"
+Finished building: ../src/ipi.c
+ 
+Building file: ../src/main.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I../../Helloworld_bsp/psu_cortexr5_0/include -I/home/guan/workspace/Helloworld/src -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/pm_cfg_obj.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I../../Helloworld_bsp/psu_cortexr5_0/include -I/home/guan/workspace/Helloworld/src -c -fmessage-length=0 -MT"src/pm_cfg_obj.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -MMD -MP -MF"src/pm_cfg_obj.d" -MT"src/pm_cfg_obj.o" -o "src/pm_cfg_obj.o" "../src/pm_cfg_obj.c"
+Finished building: ../src/pm_cfg_obj.c
+ 
+Building file: ../src/pm_ipi.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I../../Helloworld_bsp/psu_cortexr5_0/include -I/home/guan/workspace/Helloworld/src -c -fmessage-length=0 -MT"src/pm_ipi.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -MMD -MP -MF"src/pm_ipi.d" -MT"src/pm_ipi.o" -o "src/pm_ipi.o" "../src/pm_ipi.c"
+Finished building: ../src/pm_ipi.c
+ 
+Building file: ../src/test_aux.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I../../Helloworld_bsp/psu_cortexr5_0/include -I/home/guan/workspace/Helloworld/src -c -fmessage-length=0 -MT"src/test_aux.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -MMD -MP -MF"src/test_aux.d" -MT"src/test_aux.o" -o "src/test_aux.o" "../src/test_aux.c"
+Finished building: ../src/test_aux.c
+ 
+Building target: Helloworld.elf
+Invoking: ARM R5 gcc linker
+armr5-none-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Helloworld_bsp/psu_cortexr5_0/lib -o "Helloworld.elf"  ./src/config.o ./src/gic_setup.o ./src/ipi.o ./src/main.o ./src/pm_cfg_obj.o ./src/pm_ipi.o ./src/test_aux.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16
+Finished building target: Helloworld.elf
+ 
+Invoking: ARM R5 Print Size
+armr5-none-eabi-size Helloworld.elf  |tee "Helloworld.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32460	   3200	  24712	  60372	   ebd4	Helloworld.elf
+Finished building: Helloworld.elf.size
+ 
+
+15:57:05 Build Finished (took 3s.373ms)
+

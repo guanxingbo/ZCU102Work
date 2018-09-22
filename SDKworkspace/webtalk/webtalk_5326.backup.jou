@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# 
+# Start of session at: Sat Aug 18 16:45:06 2018
+# Process ID: 5326
+# Current directory: /home/guan/workspace/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/guan/workspace/webtalk/webtalk.log
+# Journal file: /home/guan/workspace/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,59 @@
+/*
+ * Copyright (c) 2012 Xilinx, Inc.  All rights reserved.
+ *
+ * Xilinx, Inc.
+ * XILINX IS PROVIDING THIS DESIGN, CODE, OR INFORMATION "AS IS" AS A
+ * COURTESY TO YOU.  BY PROVIDING THIS DESIGN, CODE, OR INFORMATION AS
+ * ONE POSSIBLE   IMPLEMENTATION OF THIS FEATURE, APPLICATION OR
+ * STANDARD, XILINX IS MAKING NO REPRESENTATION THAT THIS IMPLEMENTATION
+ * IS FREE FROM ANY CLAIMS OF INFRINGEMENT, AND YOU ARE RESPONSIBLE
+ * FOR OBTAINING ANY RIGHTS YOU MAY REQUIRE FOR YOUR IMPLEMENTATION.
+ * XILINX EXPRESSLY DISCLAIMS ANY WARRANTY WHATSOEVER WITH RESPECT TO
+ * THE ADEQUACY OF THE IMPLEMENTATION, INCLUDING BUT NOT LIMITED TO
+ * ANY WARRANTIES OR REPRESENTATIONS THAT THIS IMPLEMENTATION IS FREE
+ * FROM CLAIMS OF INFRINGEMENT, IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ */
+
+#include <stdio.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include <sys/io.h>
+
+
+int ReadFiles(char* path){
+
+	return 0;
+}
+
+int main()
+{
+	//====file opening====
+    int fd = open("a.txt",O_RDWR);
+    if( -1 == fd )
+        perror("Error:"),exit(-1);
+    puts("File opened successfully");
+//    printf("fd = %d\n",fd);  	//descriptor
+
+    //data
+    int ID= 999;
+    char *name = "World of wonder";
+    double salary = 5.000;
+    //==file creation===
+    int fd2 = open("b.txt",O_CREAT|O_RDWR,0666);
+//    printf("fd2 = %d\n",fd2);
+    ssize_t res = write(fd2,&ID,sizeof(int));
+    if(res <= 0){
+    	puts("I/O error");
+    }
+    write(fd2,name,strlen(name));
+    write(fd2,&salary,sizeof(double));
+    struct _finddata_t;
+    long fHandle;
+
+
+    return 0;
+}

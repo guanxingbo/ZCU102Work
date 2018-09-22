@@ -1,0 +1,44 @@
+19:59:15 **** Auto Build of configuration Debug for project testprjlinux ****
+make all 
+Building target: testprjlinux.elf
+Invoking: ARM v8 Linux gcc linker
+aarch64-linux-gnu-gcc -L../../testprj_bsp/psu_cortexa53_0/lib -o "testprjlinux.elf"  ./src/helloworld.o ./src/platform.o   
+./src/helloworld.o: In function `xddr_hls_test_init':
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:79: undefined reference to `XDdr_hls_test_Initialize'
+./src/helloworld.o: In function `xddr_hls_test_start':
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:86: undefined reference to `XDdr_hls_test_InterruptEnable'
+makefile:33: recipe for target 'testprjlinux.elf' failed
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:87: undefined reference to `XDdr_hls_test_InterruptGlobalEnable'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:88: undefined reference to `XDdr_hls_test_Start'
+./src/helloworld.o: In function `xddr_hls_test_isr':
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:95: undefined reference to `XDdr_hls_test_InterruptGlobalDisable'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:97: undefined reference to `XDdr_hls_test_InterruptDisable'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:100: undefined reference to `XDdr_hls_test_InterruptClear'
+./src/helloworld.o: In function `setup_interrupt':
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:113: undefined reference to `XScuGic_LookupConfig'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:115: undefined reference to `print'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:118: undefined reference to `XScuGic_CfgInitialize'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:123: undefined reference to `XScuGic_SelfTest'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:128: undefined reference to `Xil_ExceptionInit'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:131: undefined reference to `XScuGic_InterruptHandler'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:131: undefined reference to `XScuGic_InterruptHandler'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:131: undefined reference to `Xil_ExceptionRegisterHandler'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:136: undefined reference to `XScuGic_Connect'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:141: undefined reference to `XScuGic_Enable'
+./src/helloworld.o: In function `main':
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:149: undefined reference to `print'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:157: undefined reference to `print'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:163: undefined reference to `print'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:174: undefined reference to `print'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:176: undefined reference to `XDdr_hls_test_Set_start_signal_i'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:177: undefined reference to `XDdr_hls_test_Set_num'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:178: undefined reference to `XDdr_hls_test_Set_saMaster'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:192: undefined reference to `print'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:195: undefined reference to `XDdr_hls_test_IsReady'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:196: undefined reference to `print'
+/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/Debug/../src/helloworld.c:206: undefined reference to `print'
+collect2: error: ld returned 1 exit status
+make: *** [testprjlinux.elf] Error 1
+
+19:59:16 Build Finished (took 651ms)
+

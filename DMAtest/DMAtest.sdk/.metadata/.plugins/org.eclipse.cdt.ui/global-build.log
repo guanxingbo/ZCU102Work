@@ -1,0 +1,6 @@
+18:41:32 **** Build of project device_tree_bsp_0 ****
+make -k all 
+make: Nothing to be done for 'all'.
+18:47:06 **** Auto Build of project device_tree_bsp_0 ****
+make -k all 
+make: Nothing to be done for 'all'.

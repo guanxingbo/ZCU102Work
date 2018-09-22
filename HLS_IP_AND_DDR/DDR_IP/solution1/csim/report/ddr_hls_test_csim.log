@@ -1,0 +1,20 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../Zedboard_Intergrating_HLS_IP_AND_DDR/ddr_hls_test/tb.cc in debug mode
+csim.mk:77: recipe for target 'obj/tb.o' failed
+../../../../../Zedboard_Intergrating_HLS_IP_AND_DDR/ddr_hls_test/tb.cc:4:10: error: #include expects "FILENAME" or <FILENAME>
+ #include “header.h”
+          ^
+../../../../../Zedboard_Intergrating_HLS_IP_AND_DDR/ddr_hls_test/tb.cc: In function ‘int main()’:
+../../../../../Zedboard_Intergrating_HLS_IP_AND_DDR/ddr_hls_test/tb.cc:9:10: error: two or more data types in declaration of ‘num’
+  int int num = 30;
+          ^~~
+../../../../../Zedboard_Intergrating_HLS_IP_AND_DDR/ddr_hls_test/tb.cc:12:43: error: ‘num’ was not declared in this scope
+  ddr_hls_test(&start_signal, &hls_check, &num, &saMaster);
+                                           ^~~
+../../../../../Zedboard_Intergrating_HLS_IP_AND_DDR/ddr_hls_test/tb.cc:12:57: error: ‘ddr_hls_test’ was not declared in this scope
+  ddr_hls_test(&start_signal, &hls_check, &num, &saMaster);
+                                                         ^
+make: *** [obj/tb.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

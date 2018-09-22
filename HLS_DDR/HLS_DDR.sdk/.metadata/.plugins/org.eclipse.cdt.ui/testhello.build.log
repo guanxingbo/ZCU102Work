@@ -1,0 +1,21 @@
+20:06:39 **** Build of configuration Debug for project testhello ****
+make all 
+Building file: ../src/freertos_hello_world.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/freertos_hello_world.o" -I../../testhello_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/freertos_hello_world.d" -MT"src/freertos_hello_world.o" -o "src/freertos_hello_world.o" "../src/freertos_hello_world.c"
+Finished building: ../src/freertos_hello_world.c
+ 
+Building target: testhello.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testhello_bsp/psu_cortexa53_0/lib -o "testhello.elf"  ./src/freertos_hello_world.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+Finished building target: testhello.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size testhello.elf  |tee "testhello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 102208	   7912	  87416	 197536	  303a0	testhello.elf
+Finished building: testhello.elf.size
+ 
+
+20:06:40 Build Finished (took 709ms)
+

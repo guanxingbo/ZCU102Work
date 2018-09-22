@@ -1,0 +1,116 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Fri Sep  7 14:51:50 2018
+| Host         : guan-X450LN running 64-bit Ubuntu 16.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zedboard_base_ddr_hls_test_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zedboard_base_ddr_hls_test_0_0 (xilinx.com:hls:ddr_hls_test:1.0) from (Rev. 1808150352) to (Rev. 1809071440)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon Sep  3 15:57:52 2018
+| Host         : guan-X450LN running 64-bit Ubuntu 16.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zedboard_base_rst_ps7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of zedboard_base_rst_ps7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon Sep  3 15:57:52 2018
+| Host         : guan-X450LN running 64-bit Ubuntu 16.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zedboard_base_ps7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of zedboard_base_ps7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 18)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon Sep  3 15:57:52 2018
+| Host         : guan-X450LN running 64-bit Ubuntu 16.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zedboard_base_axi_timer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of zedboard_base_axi_timer_0_0 (xilinx.com:ip:axi_timer:2.0 (Rev. 19)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon Sep  3 15:57:52 2018
+| Host         : guan-X450LN running 64-bit Ubuntu 16.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zedboard_base_axi_smc_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of zedboard_base_axi_smc_0 (xilinx.com:ip:smartconnect:1.0 (Rev. 9)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'zedboard_base_axi_smc_0'.
+
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'zedboard_base_axi_smc_0'. These changes may impact your design.
+
+
+

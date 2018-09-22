@@ -1,0 +1,5 @@
+   Build using "/home/guan/Xilinx/Vivado/2018.2/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling apatb_ddr_hls_test.cpp
+   Compiling top.cc_pre.cc.tb.cc
+   Compiling tb.cc_pre.cc.tb.cc
+   Generating cosim.tv.exe

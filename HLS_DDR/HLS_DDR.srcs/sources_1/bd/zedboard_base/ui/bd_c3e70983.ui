@@ -1,0 +1,26 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 TLS
+#  -string -flagsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 2 -y 210 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 3 -y -50 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -y -120 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 3 -y -260 -defaultsOSRD
+preplace inst ddr_hls_test_0 -pg 1 -lvl 1 -y 120 -defaultsOSRD
+preplace netloc ddr_hls_test_0_m_axi_gmem 1 1 2 690J -150 1050
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 20 10 670 20 1060
+preplace netloc axi_smc_M00_AXI 1 0 4 20 -340 NJ -340 NJ -340 1390
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 2 660J -140 N
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 3 30 30 NJ 30 1070
+preplace netloc ddr_hls_test_0_interrupt 1 0 2 40 0 660
+preplace netloc ps8_0_axi_periph_M00_AXI 1 0 4 40 40 NJ 40 1050J 100 1390
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 1 680
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 1 2 NJ -130 1050
+preplace netloc rst_ps8_0_99M_interconnect_aresetn 1 2 1 1080
+levelinfo -pg 1 0 350 870 1240 1410 -top -380 -bot 1140
+",
+}
+{
+   da_axi4_cnt: "7",
+   da_zynq_ultra_ps_e_cnt: "1",
+}

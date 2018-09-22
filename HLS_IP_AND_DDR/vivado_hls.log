@@ -1,0 +1,27 @@
+INFO: [HLS 200-10] Running '/home/guan/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'guan' on host 'guan-X450LN' (Linux_x86_64 version 4.4.0-135-generic) on Wed Sep 05 17:48:33 HKT 2018
+INFO: [HLS 200-10] On os Ubuntu 16.04.5 LTS
+INFO: [HLS 200-10] In directory '/home/guan/Xilinx/Project/HLS_IP_AND_DDR'
+INFO: [HLS 200-10] Opening project '/home/guan/Xilinx/Project/HLS_IP_AND_DDR/DDR_IP'.
+INFO: [HLS 200-10] Adding design file '../Zedboard_Intergrating_HLS_IP_AND_DDR/ddr_hls_test/header.h' to the project
+INFO: [HLS 200-10] Adding design file 'top.cc' to the project
+INFO: [HLS 200-10] Adding test bench file '../Zedboard_Intergrating_HLS_IP_AND_DDR/ddr_hls_test/tb.cc' to the project
+INFO: [HLS 200-10] Opening solution '/home/guan/Xilinx/Project/HLS_IP_AND_DDR/DDR_IP/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-i'
+INFO: [HLS 200-10] Analyzing design file 'top.cc' ... 
+WARNING: [HLS 200-40] top.cc:4:10: fatal error: 'header.h' file not found
+#include "header.h"
+         ^
+1 error generated.\n
+C preprocessor failed.
+    while executing
+"source /home/guan/Xilinx/Project/HLS_IP_AND_DDR/DDR_IP/solution1/csynth.tcl"
+    invoked from within
+"hls::main /home/guan/Xilinx/Project/HLS_IP_AND_DDR/DDR_IP/solution1/csynth.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"

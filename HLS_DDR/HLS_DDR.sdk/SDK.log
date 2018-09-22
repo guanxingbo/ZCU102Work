@@ -1,0 +1,742 @@
+15:48:32 INFO  : Registering command handlers for SDK TCF services
+15:48:34 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+15:48:40 INFO  : XSCT server has started successfully.
+15:48:40 INFO  : Successfully done setting XSCT server connection channel  
+15:49:01 INFO  : Successfully done setting SDK workspace  
+15:49:01 INFO  : Processing command line option -hwspec /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper.hdf.
+16:31:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1536309064000,  Project:1536306010000
+16:31:20 INFO  : Project zedboard_base_wrapper_hw_platform_0's source hardware specification located at /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:31:28 INFO  : Copied contents of /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper.hdf into /zedboard_base_wrapper_hw_platform_0/system.hdf.
+16:31:43 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:31:47 INFO  : 
+16:31:48 INFO  : Updating hardware inferred compiler options for testprj.
+16:31:48 INFO  : Clearing existing target manager status.
+16:31:48 INFO  : Closing and re-opening the MSS file of ther project testprj_bsp
+16:31:50 INFO  : Closing and re-opening the MSS file of ther project testprj_bsp
+16:31:51 INFO  : Closing and re-opening the MSS file of ther project testprj_bsp
+16:31:51 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:31:52 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:33:32 INFO  : Attempting to launch Hardware server...
+16:33:34 INFO  : Hardware server is launched successfully.
+16:33:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:33:51 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+16:33:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+16:33:54 ERROR : fpga initialization failed
+16:34:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:34:21 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+16:34:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+16:34:24 ERROR : fpga initialization failed
+16:35:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:35:05 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+16:35:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+16:35:08 ERROR : fpga initialization failed
+16:40:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:40:10 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+16:40:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+16:40:13 ERROR : fpga initialization failed
+17:01:17 ERROR : Failed to connect to hardware server on host 'lo' and port '3121'.
+Reason: Name or service not known
+17:01:18 ERROR : Failed to connect to hardware server on host 'local' and port '3121'.
+Reason: Name or service not known
+17:01:19 INFO  : Connected to target on host 'localhost' and port '3121'.
+17:01:19 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+17:01:37 INFO  : Connected to target on host 'localhost' and port '3121'.
+17:01:37 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+17:01:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+17:01:40 ERROR : fpga initialization failed
+17:01:49 INFO  : Connected to target on host 'localhost' and port '3121'.
+17:01:49 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+17:02:07 INFO  : Connected to target on host 'localhost' and port '3121'.
+17:02:07 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+17:02:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+17:02:09 ERROR : fpga initialization failed
+17:04:43 INFO  : Connected to target on host 'localhost' and port '3121'.
+17:04:43 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+17:05:02 INFO  : Connected to target on host 'localhost' and port '3121'.
+17:05:02 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+17:05:10 INFO  : Connected to target on host 'localhost' and port '3121'.
+17:05:10 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+17:05:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+17:05:12 ERROR : fpga initialization failed
+17:06:35 ERROR : (XSDB Server)no bit file specified
+
+17:07:02 INFO  : Connected to target on host 'localhost' and port '3121'.
+17:07:02 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+17:07:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+17:07:05 ERROR : fpga initialization failed
+17:10:56 INFO  : Connected to target on host 'localhost' and port '3121'.
+17:10:56 ERROR : Could not read jtag device properties from the line: 4  dummy_dap (irlen 4)
+17:10:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+17:10:58 ERROR : fpga initialization failed
+17:13:58 INFO  : Connected to target on host 'localhost' and port '3121'.
+17:13:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+17:14:19 INFO  : FPGA configured successfully with bitstream "/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/zedboard_base_wrapper.bit"
+17:15:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:15:45 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D478' is selected.
+17:15:45 INFO  : 'jtag frequency' command is executed.
+17:15:45 INFO  : Sourcing of '/home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+17:15:45 INFO  : Context for 'APU' is selected.
+17:15:45 INFO  : Hardware design information is loaded from '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf'.
+17:15:45 INFO  : 'configparams force-mem-access 1' command is executed.
+17:15:45 INFO  : Context for 'APU' is selected.
+17:15:45 INFO  : Sourcing of '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl' is done.
+17:15:47 INFO  : 'psu_init' command is executed.
+17:15:48 INFO  : 'after 1000' command is executed.
+17:15:48 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+17:15:49 INFO  : 'after 1000' command is executed.
+17:15:49 INFO  : 'psu_ps_pl_reset_config' command is executed.
+17:15:49 INFO  : 'catch {psu_protection}' command is executed.
+17:15:49 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:15:49 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+17:15:49 INFO  : The application '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprj/Debug/testprj.elf' is downloaded to processor 'psu_cortexa53_0'.
+17:15:49 INFO  : 'configparams force-mem-access 0' command is executed.
+17:15:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+loadhw -hw /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+source /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+rst -processor
+dow /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprj/Debug/testprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:15:49 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:15:49 INFO  : 'con' command is executed.
+17:15:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+con
+----------------End of Script----------------
+
+17:15:49 INFO  : Launch script is exported to file '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_testprj.elf_on_local.tcl'
+17:18:52 INFO  : Disconnected from the channel tcfchan#1.
+17:18:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:19:01 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D478' is selected.
+17:19:01 INFO  : 'jtag frequency' command is executed.
+17:19:01 INFO  : Sourcing of '/home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+17:19:01 INFO  : Context for 'APU' is selected.
+17:19:02 INFO  : System reset is completed.
+17:19:05 INFO  : 'after 3000' command is executed.
+17:19:05 INFO  : Context for 'APU' is selected.
+17:19:06 INFO  : Cleared APU and A53 resets
+17:19:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+17:19:40 INFO  : FPGA configured successfully with bitstream "/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/zedboard_base_wrapper.bit"
+17:19:40 INFO  : Context for 'APU' is selected.
+17:19:40 INFO  : Hardware design information is loaded from '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf'.
+17:19:40 INFO  : 'configparams force-mem-access 1' command is executed.
+17:19:40 INFO  : Context for 'APU' is selected.
+17:19:40 INFO  : Sourcing of '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl' is done.
+17:19:41 INFO  : 'psu_init' command is executed.
+17:19:42 INFO  : 'after 1000' command is executed.
+17:19:43 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+17:19:44 INFO  : 'after 1000' command is executed.
+17:19:44 INFO  : 'psu_ps_pl_reset_config' command is executed.
+17:19:44 INFO  : 'catch {psu_protection}' command is executed.
+17:19:44 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:19:44 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+17:19:44 INFO  : The application '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprj/Debug/testprj.elf' is downloaded to processor 'psu_cortexa53_0'.
+17:19:44 INFO  : 'configparams force-mem-access 0' command is executed.
+17:19:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+reset_apu
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0
+fpga -file /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/zedboard_base_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+loadhw -hw /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+source /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+rst -processor
+dow /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprj/Debug/testprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:19:44 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:19:44 INFO  : 'con' command is executed.
+17:19:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+con
+----------------End of Script----------------
+
+17:19:44 INFO  : Launch script is exported to file '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_testprj.elf_on_local.tcl'
+17:27:12 INFO  : Disconnected from the channel tcfchan#3.
+17:27:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:27:13 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D478' is selected.
+17:27:13 INFO  : 'jtag frequency' command is executed.
+17:27:13 INFO  : Sourcing of '/home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+17:27:13 INFO  : Context for 'APU' is selected.
+17:27:14 INFO  : System reset is completed.
+17:27:17 INFO  : 'after 3000' command is executed.
+17:27:17 INFO  : Context for 'APU' is selected.
+17:27:17 INFO  : Cleared APU and A53 resets
+17:27:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+17:27:46 INFO  : FPGA configured successfully with bitstream "/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/zedboard_base_wrapper.bit"
+17:27:46 INFO  : Context for 'APU' is selected.
+17:27:46 INFO  : Hardware design information is loaded from '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf'.
+17:27:46 INFO  : 'configparams force-mem-access 1' command is executed.
+17:27:46 INFO  : Context for 'APU' is selected.
+17:27:46 INFO  : Sourcing of '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl' is done.
+17:27:48 INFO  : 'psu_init' command is executed.
+17:27:49 INFO  : 'after 1000' command is executed.
+17:27:49 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+17:27:50 INFO  : 'after 1000' command is executed.
+17:27:50 INFO  : 'psu_ps_pl_reset_config' command is executed.
+17:27:50 INFO  : 'catch {psu_protection}' command is executed.
+17:27:50 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:27:50 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+17:27:50 INFO  : The application '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprj/Debug/testprj.elf' is downloaded to processor 'psu_cortexa53_0'.
+17:27:50 INFO  : 'configparams force-mem-access 0' command is executed.
+17:27:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+rst -system
+after 3000
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+reset_apu
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0
+fpga -file /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/zedboard_base_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+loadhw -hw /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+source /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+rst -processor
+dow /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprj/Debug/testprj.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:27:50 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+17:27:51 INFO  : 'con' command is executed.
+17:27:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+con
+----------------End of Script----------------
+
+17:27:51 INFO  : Launch script is exported to file '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_testprj.elf_on_local.tcl'
+17:31:50 INFO  : Disconnected from the channel tcfchan#4.
+19:09:56 INFO  : Registering command handlers for SDK TCF services
+19:09:57 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+19:10:00 INFO  : XSCT server has started successfully.
+19:10:00 INFO  : Successfully done setting XSCT server connection channel  
+19:10:00 INFO  : Successfully done setting SDK workspace  
+19:43:55 INFO  : Registering command handlers for SDK TCF services
+19:43:56 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+19:43:58 INFO  : XSCT server has started successfully.
+19:43:58 INFO  : Successfully done setting XSCT server connection channel  
+19:43:58 INFO  : Successfully done setting SDK workspace  
+19:43:58 INFO  : Processing command line option -hwspec /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper.hdf.
+19:43:58 INFO  : Checking for hwspec changes in the project zedboard_base_wrapper_hw_platform_0.
+21:29:08 INFO  : Registering command handlers for SDK TCF services
+21:29:11 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+21:29:16 INFO  : XSCT server has started successfully.
+21:29:16 INFO  : Successfully done setting XSCT server connection channel  
+21:29:32 INFO  : Successfully done setting SDK workspace  
+14:30:02 INFO  : Registering command handlers for SDK TCF services
+14:30:03 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+14:30:09 INFO  : XSCT server has started successfully.
+14:30:24 INFO  : Successfully done setting XSCT server connection channel  
+14:30:24 INFO  : Successfully done setting SDK workspace  
+14:43:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:44:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+14:45:58 INFO  : Launching QEMU with command '/home/guan/Xilinx/SDK/2018.2/bin/qemu-system-aarch64 -nographic -M arm-generic-fdt -dtb /home/guan/Xilinx/SDK/2018.2/data/qemu/zynqMP/SINGLE_ARCH/zcu102-arm.dtb -gdb tcp::1137 -S'
+14:45:58 INFO  : Launching tcfgdbclient with command 'tcfgdbclient -s tcp::1138 -S'
+14:46:00 ERROR : (QEMU Process )audio: Could not init `oss' audio driver
+
+14:46:03 INFO  : Connected to target on host 'localhost' and port '1138'.
+14:46:12 INFO  : 'tcf send_command tcfchan#2 GdbClient connect "o{host s port s}" eA {{host localhost port 1137 architecture aarch64}}' command is executed.
+14:48:19 INFO  : QEMU process is terminated.
+14:48:19 INFO  : tcfgdbclient process is terminated.
+14:52:38 INFO  : Registering command handlers for SDK TCF services
+14:52:40 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+14:52:43 INFO  : XSCT server has started successfully.
+14:52:43 INFO  : Successfully done setting XSCT server connection channel  
+14:52:43 INFO  : Successfully done setting SDK workspace  
+19:43:03 INFO  : Registering command handlers for SDK TCF services
+19:43:05 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+19:43:09 INFO  : XSCT server has started successfully.
+19:43:09 INFO  : Successfully done setting XSCT server connection channel  
+19:43:09 INFO  : Successfully done setting SDK workspace  
+19:45:24 INFO  : Successfully generated /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testprjlinux/src/testprjlinux.ld.
+19:45:24 INFO  : Applying linker script to all configurations of project testprjlinux.
+19:45:24 INFO  : Setting rebuild state to true for all configurations of project testprjlinux.
+20:01:57 INFO  : Registering command handlers for SDK TCF services
+20:01:58 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+20:02:00 INFO  : XSCT server has started successfully.
+20:02:01 INFO  : Successfully done setting XSCT server connection channel  
+20:02:01 INFO  : Successfully done setting SDK workspace  
+20:02:01 INFO  : Processing command line option -hwspec /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper.hdf.
+16:37:50 INFO  : Registering command handlers for SDK TCF services
+16:37:52 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+16:37:57 INFO  : XSCT server has started successfully.
+16:38:11 INFO  : Successfully done setting XSCT server connection channel  
+16:38:11 INFO  : Successfully done setting SDK workspace  
+16:41:02 INFO  : Registering command handlers for SDK TCF services
+16:41:02 ERROR : Unsatisfied link error while loading librdi_repo_manager.so: java.lang.UnsatisfiedLinkError: no rdi_repo_manager in java.library.path
+16:41:02 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+16:41:02 ERROR : Error launching XSCT server
+java.io.IOException: Cannot run program "xsct": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.launchXsdbServer(XSDBCommandManager.java:283)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.ensureServerIsLaunched(XSDBCommandManager.java:168)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.access$1(XSDBCommandManager.java:166)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$2.run(XSDBCommandManager.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 8 more
+16:41:02 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+16:41:02 ERROR : Error launching XSCT server
+java.io.IOException: Cannot run program "xsct": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.launchXsdbServer(XSDBCommandManager.java:283)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.ensureServerIsLaunched(XSDBCommandManager.java:168)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:388)
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:307)
+	at com.xilinx.sdk.sw.internal.SwReposMan.<init>(SwReposMan.java:72)
+	at com.xilinx.sdk.sw.SwDbUtils$SwReposManHolder.<clinit>(SwDbUtils.java:54)
+	at com.xilinx.sdk.sw.SwDbUtils.getReposMan(SwDbUtils.java:67)
+	at com.xilinx.sdk.startup.InitSDK$8.run(InitSDK.java:365)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 12 more
+16:41:02 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+16:41:02 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+16:41:07 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+16:41:07 ERROR : Error launching XSCT server
+java.io.IOException: Cannot run program "xsct": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.launchXsdbServer(XSDBCommandManager.java:283)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.ensureServerIsLaunched(XSDBCommandManager.java:168)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:388)
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:307)
+	at com.xilinx.sdk.hw.internal.HwPlatform.openHw(HwPlatform.java:367)
+	at com.xilinx.sdk.hw.internal.HwPlatform.<init>(HwPlatform.java:354)
+	at com.xilinx.sdk.hw.internal.HwSpecFactory.createHwSpec(HwSpecFactory.java:55)
+	at com.xilinx.sdk.hw.HwProjectUtil.getProjectHwSpec(HwProjectUtil.java:626)
+	at com.xilinx.sdk.hw.HwProjectUtil.getHwSpecForProject(HwProjectUtil.java:318)
+	at com.xilinx.sdk.hw.sync.HwSpecChangeUtil.hasSpecChanged(HwSpecChangeUtil.java:297)
+	at com.xilinx.sdk.hw.sync.HwSpecChangeUtil.hasChanges(HwSpecChangeUtil.java:72)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor.doMonitorTask(HwPlatformMonitor.java:52)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor.access$0(HwPlatformMonitor.java:41)
+	at com.xilinx.sdk.hw.sync.HwPlatformMonitor$1.run(HwPlatformMonitor.java:33)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4528)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4146)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 43 more
+16:41:07 ERROR : Failed to openhw "/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+16:41:07 INFO  : Project zedboard_base_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+17:09:45 INFO  : Registering command handlers for SDK TCF services
+17:09:46 ERROR : Unsatisfied link error while loading librdi_repo_manager.so: java.lang.UnsatisfiedLinkError: no rdi_repo_manager in java.library.path
+17:09:46 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+17:09:46 ERROR : Error launching XSCT server
+java.io.IOException: Cannot run program "xsct": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.launchXsdbServer(XSDBCommandManager.java:283)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.ensureServerIsLaunched(XSDBCommandManager.java:168)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.access$1(XSDBCommandManager.java:166)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$2.run(XSDBCommandManager.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 8 more
+17:09:46 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+17:09:46 ERROR : Error launching XSCT server
+java.io.IOException: Cannot run program "xsct": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:450)
+	at java.lang.Runtime.exec(Runtime.java:347)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.launchXsdbServer(XSDBCommandManager.java:283)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.ensureServerIsLaunched(XSDBCommandManager.java:168)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueAndWait(XSDBCommandManager.java:388)
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:307)
+	at com.xilinx.sdk.sw.internal.SwReposMan.<init>(SwReposMan.java:72)
+	at com.xilinx.sdk.sw.SwDbUtils$SwReposManHolder.<clinit>(SwDbUtils.java:54)
+	at com.xilinx.sdk.sw.SwDbUtils.getReposMan(SwDbUtils.java:67)
+	at com.xilinx.sdk.startup.InitSDK$8.run(InitSDK.java:365)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 12 more
+17:09:46 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+17:09:46 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+17:13:00 INFO  : Registering command handlers for SDK TCF services
+17:13:02 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+17:13:07 INFO  : XSCT server has started successfully.
+17:13:07 INFO  : Successfully done setting XSCT server connection channel  
+17:13:20 INFO  : Successfully done setting SDK workspace  
+19:43:58 INFO  : Registering command handlers for SDK TCF services
+19:44:00 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+19:44:03 INFO  : XSCT server has started successfully.
+19:44:04 INFO  : Successfully done setting XSCT server connection channel  
+19:44:04 INFO  : Successfully done setting SDK workspace  
+15:51:25 INFO  : Registering command handlers for SDK TCF services
+15:51:27 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+15:51:31 INFO  : XSCT server has started successfully.
+15:51:31 INFO  : Successfully done setting XSCT server connection channel  
+15:51:39 INFO  : Successfully done setting SDK workspace  
+15:51:39 INFO  : Processing command line option -hwspec /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper.hdf.
+14:51:05 INFO  : Registering command handlers for SDK TCF services
+14:51:07 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+14:51:16 INFO  : XSCT server has started successfully.
+14:51:36 INFO  : Successfully done setting XSCT server connection channel  
+14:51:36 INFO  : Successfully done setting SDK workspace  
+15:18:03 INFO  : Registering command handlers for SDK TCF services
+15:18:04 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+15:18:06 INFO  : XSCT server has started successfully.
+15:18:06 INFO  : Successfully done setting XSCT server connection channel  
+15:18:06 INFO  : Successfully done setting SDK workspace  
+19:18:17 INFO  : Registering command handlers for SDK TCF services
+19:18:18 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+19:18:23 INFO  : XSCT server has started successfully.
+19:18:23 INFO  : Successfully done setting XSCT server connection channel  
+19:18:36 INFO  : Successfully done setting SDK workspace  
+19:46:50 INFO  : Registering command handlers for SDK TCF services
+19:46:52 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+19:46:57 INFO  : XSCT server has started successfully.
+19:46:57 INFO  : Successfully done setting XSCT server connection channel  
+19:47:11 INFO  : Successfully done setting SDK workspace  
+20:04:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:04:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:11:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:50:36 INFO  : Registering command handlers for SDK TCF services
+20:50:38 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+20:50:40 INFO  : XSCT server has started successfully.
+20:50:40 INFO  : Successfully done setting XSCT server connection channel  
+20:50:40 INFO  : Successfully done setting SDK workspace  
+20:54:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:54:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:54:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+20:55:15 INFO  : FPGA configured successfully with bitstream "/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/zedboard_base_wrapper.bit"
+20:56:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:56:18 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D478' is selected.
+20:56:18 INFO  : 'jtag frequency' command is executed.
+20:56:18 INFO  : Sourcing of '/home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+20:56:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+20:56:54 INFO  : FPGA configured successfully with bitstream "/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/zedboard_base_wrapper.bit"
+20:56:55 INFO  : Context for 'APU' is selected.
+20:56:55 INFO  : Hardware design information is loaded from '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf'.
+20:56:55 INFO  : 'configparams force-mem-access 1' command is executed.
+20:56:55 INFO  : Context for 'APU' is selected.
+20:56:55 INFO  : Sourcing of '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl' is done.
+20:56:57 INFO  : 'psu_init' command is executed.
+20:56:57 INFO  : 'catch {psu_protection}' command is executed.
+20:56:57 INFO  : 'configparams force-mem-access 0' command is executed.
+20:56:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0
+fpga -file /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/zedboard_base_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+loadhw -hw /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+source /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+catch {psu_protection}
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:56:57 INFO  : Launch script is exported to file '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_on_local.tcl'
+20:58:55 INFO  : Disconnected from the channel tcfchan#1.
+20:59:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:59:47 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D478' is selected.
+20:59:47 INFO  : 'jtag frequency' command is executed.
+20:59:47 INFO  : Sourcing of '/home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+20:59:47 INFO  : Context for 'APU' is selected.
+20:59:48 INFO  : Hardware design information is loaded from '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf'.
+20:59:48 INFO  : 'configparams force-mem-access 1' command is executed.
+20:59:48 INFO  : Context for 'APU' is selected.
+20:59:48 INFO  : Sourcing of '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl' is done.
+20:59:49 INFO  : 'psu_init' command is executed.
+20:59:49 INFO  : 'catch {psu_protection}' command is executed.
+20:59:49 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+20:59:50 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+20:59:50 INFO  : The application '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testtestbm/Debug/testtestbm.elf' is downloaded to processor 'psu_cortexa53_0'.
+20:59:50 INFO  : 'configparams force-mem-access 0' command is executed.
+20:59:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+loadhw -hw /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+source /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+rst -processor
+dow /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testtestbm/Debug/testtestbm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:59:50 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+20:59:50 INFO  : 'con' command is executed.
+20:59:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+con
+----------------End of Script----------------
+
+20:59:50 INFO  : Launch script is exported to file '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_on_local.tcl'
+21:02:59 INFO  : Disconnected from the channel tcfchan#2.
+21:03:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:03:16 ERROR : (XSDB Server)/home/guan/Xilinx/SDK/2018.2/bin/loader: line 194:  4466 Segmentation fault      "$RDI_PROG" "$@"
+
+21:03:16 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+21:03:18 INFO  : XSCT server has started successfully.
+21:03:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+21:03:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:04:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:04:23 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D478' is selected.
+21:04:23 INFO  : 'jtag frequency' command is executed.
+21:04:23 INFO  : Sourcing of '/home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+21:04:23 INFO  : Context for 'APU' is selected.
+21:04:23 INFO  : Cleared APU and A53 resets
+21:04:23 INFO  : Context for 'RPU' is selected.
+21:04:24 INFO  : Cleared RPU and R5 resets
+21:04:25 INFO  : Context for 'APU' is selected.
+21:04:26 INFO  : Hardware design information is loaded from '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf'.
+21:04:26 INFO  : 'configparams force-mem-access 1' command is executed.
+21:04:26 INFO  : Context for 'APU' is selected.
+21:04:26 INFO  : Sourcing of '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl' is done.
+21:04:27 ERROR : Memory read error at 0xFFCA5000. Cannot read sctlr_el3. Cannot read r0. Instruction transfer timeout
+21:04:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+reset_apu
+targets -set -nocase -filter {name =~"RPU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+clear_rpu_reset
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+loadhw -hw /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+source /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+----------------End of Script----------------
+
+21:04:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:05:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:05:11 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D478' is selected.
+21:05:11 INFO  : 'jtag frequency' command is executed.
+21:05:11 INFO  : Sourcing of '/home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+21:05:11 INFO  : Context for 'APU' is selected.
+21:05:11 ERROR : Execution context is running
+21:05:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+reset_apu
+----------------End of Script----------------
+
+21:05:50 INFO  : Registering command handlers for SDK TCF services
+21:05:51 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+21:05:53 INFO  : XSCT server has started successfully.
+21:05:53 INFO  : Successfully done setting XSCT server connection channel  
+21:05:53 INFO  : Successfully done setting SDK workspace  
+21:06:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:06:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+21:06:42 ERROR : fpga configuration failed. DONE PIN is not HIGH
+21:07:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:07:12 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D478' is selected.
+21:07:12 INFO  : 'jtag frequency' command is executed.
+21:07:12 INFO  : Sourcing of '/home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+21:07:12 INFO  : Context for 'APU' is selected.
+21:07:12 INFO  : Cleared APU and A53 resets
+21:07:12 INFO  : Context for 'RPU' is selected.
+21:07:13 INFO  : Cleared RPU and R5 resets
+21:07:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0' command is executed.
+21:07:46 INFO  : FPGA configured successfully with bitstream "/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/zedboard_base_wrapper.bit"
+21:07:46 INFO  : Context for 'APU' is selected.
+21:07:46 INFO  : Hardware design information is loaded from '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf'.
+21:07:46 INFO  : 'configparams force-mem-access 1' command is executed.
+21:07:46 INFO  : Context for 'APU' is selected.
+21:07:46 INFO  : Sourcing of '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl' is done.
+21:07:49 INFO  : 'psu_init' command is executed.
+21:07:50 INFO  : 'after 1000' command is executed.
+21:07:50 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+21:07:51 INFO  : 'after 1000' command is executed.
+21:07:51 INFO  : 'psu_ps_pl_reset_config' command is executed.
+21:07:51 INFO  : 'catch {psu_protection}' command is executed.
+21:07:51 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+21:07:51 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+21:07:52 INFO  : The application '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testtestbm/Debug/testtestbm.elf' is downloaded to processor 'psu_cortexa53_0'.
+21:07:52 INFO  : 'configparams force-mem-access 0' command is executed.
+21:07:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/guan/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+reset_apu
+targets -set -nocase -filter {name =~"RPU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+clear_rpu_reset
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478" && level==0} -index 0
+fpga -file /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/zedboard_base_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+loadhw -hw /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+source /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+rst -processor
+dow /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/testtestbm/Debug/testtestbm.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:07:52 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+21:07:52 INFO  : 'con' command is executed.
+21:07:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D478"} -index 1
+con
+----------------End of Script----------------
+
+21:07:52 INFO  : Launch script is exported to file '/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_on_local.tcl'
+21:16:18 INFO  : Disconnected from the channel tcfchan#1.
+17:35:14 INFO  : Registering command handlers for SDK TCF services
+17:35:17 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+17:35:21 INFO  : XSCT server has started successfully.
+17:35:21 INFO  : Successfully done setting XSCT server connection channel  
+17:35:29 INFO  : Successfully done setting SDK workspace  
+21:36:03 INFO  : Registering command handlers for SDK TCF services
+21:36:06 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+21:36:12 INFO  : XSCT server has started successfully.
+21:36:27 INFO  : Successfully done setting XSCT server connection channel  
+21:36:27 INFO  : Successfully done setting SDK workspace  
+14:56:07 INFO  : Registering command handlers for SDK TCF services
+14:56:10 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+14:56:18 INFO  : XSCT server has started successfully.
+14:56:41 INFO  : Successfully done setting XSCT server connection channel  
+14:56:41 INFO  : Successfully done setting SDK workspace  
+21:31:41 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+21:31:46 INFO  : XSCT server has started successfully.
+21:32:18 INFO  : Successfully done setting XSCT server connection channel  
+21:32:18 INFO  : Successfully done setting SDK workspace  
+21:32:25 INFO  : Registering command handlers for SDK TCF services
+17:10:56 INFO  : Registering command handlers for SDK TCF services
+17:10:58 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+17:11:05 INFO  : XSCT server has started successfully.
+17:11:05 INFO  : Successfully done setting XSCT server connection channel  
+17:11:18 INFO  : Successfully done setting SDK workspace  
+17:28:34 INFO  : Attempting to launch Hardware server...
+17:28:35 INFO  : Hardware server is launched successfully.
+17:31:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:39:57 INFO  : Registering command handlers for SDK TCF services
+17:39:58 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+17:40:00 INFO  : XSCT server has started successfully.
+17:40:00 INFO  : Successfully done setting XSCT server connection channel  
+17:40:01 INFO  : Successfully done setting SDK workspace  
+17:49:48 INFO  : Registering command handlers for SDK TCF services
+17:49:50 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+17:49:52 INFO  : XSCT server has started successfully.
+17:49:52 INFO  : Successfully done setting XSCT server connection channel  
+17:49:52 INFO  : Successfully done setting SDK workspace  
+20:01:06 INFO  : Registering command handlers for SDK TCF services
+20:01:08 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+20:01:14 INFO  : XSCT server has started successfully.
+20:01:42 INFO  : Successfully done setting XSCT server connection channel  
+20:01:42 INFO  : Successfully done setting SDK workspace  
+20:09:27 INFO  : Registering command handlers for SDK TCF services
+20:09:28 INFO  : Launching XSCT server: xsct -n -interactive /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/temp_xsdb_launch_script.tcl
+20:09:30 INFO  : XSCT server has started successfully.
+20:09:30 INFO  : Successfully done setting XSCT server connection channel  
+20:09:30 INFO  : Successfully done setting SDK workspace  
+20:09:30 INFO  : Processing command line option -hwspec /home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.sdk/zedboard_base_wrapper.hdf.

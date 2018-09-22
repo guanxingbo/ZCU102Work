@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="dmadesign_zynq_ultra_ps_e_0_0_synth_1" LaunchDir="/home/guan/Xilinx/Project/DMAtest/DMAtest.runs/dmadesign_zynq_ultra_ps_e_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/guan/Xilinx/Project/DMAtest/DMAtest.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="dmadesign_zynq_ultra_ps_e_0_0_synth_1"/>
+	</Run>
+</Runs>
+

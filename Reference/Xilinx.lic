@@ -1,0 +1,620 @@
+# ----- REMOVE LINES ABOVE HERE --------------------------
+#
+# This license is valid from Tue Sep 04 08:35:27 UTC 2018.
+#
+# This is license NODELOCKED to HOSTID=54271e6f5c65;
+# there is no need to run lmgrd for this license.
+#
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT SDSoC_Tools xilinxd 2019.09 04-nov-2018 uncounted \
+FA64DC4894A8 \
+VENDOR_STRING=guanxingbo,SDSoC_Tools,software,evaluation,_211561961_0_0_402 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT ap_sdsoc xilinxd 2019.09 04-nov-2018 uncounted 5492A2E8BF57 \
+VENDOR_STRING=guanxingbo,ap_sdsoc,software,evaluation,_211561961_0_0_346 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT ap_cc xilinxd 2019.09 04-nov-2018 uncounted DFD1239B6C99 \
+VENDOR_STRING=guanxingbo,ap_cc,software,evaluation,_211561961_0_0_627 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_cresample xilinxd 2019.09 04-nov-2018 uncounted \
+5473650929B2 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_cresample,ip,evaluation,_211561961_0_0_523 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for v_cresample
+FEATURE v_cresample xilinxd 1.0 04-nov-2018 uncounted 177433EBF92B \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_osd xilinxd 2019.09 04-nov-2018 uncounted 2858FD445951 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_osd,ip,evaluation,_211561961_0_0_727 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for v_osd
+FEATURE v_osd xilinxd 1.0 04-nov-2018 uncounted 497CFF68A3E6 \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+# Licenses for v_osd_v1_0
+FEATURE v_osd_v1_0 xilinxd 1.0 04-nov-2018 uncounted 13D067EAE649 \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_rgb2ycrcd xilinxd 2019.09 04-nov-2018 uncounted \
+BE2AA6E7CE09 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_rgb2ycrcd,ip,evaluation,_211561961_0_0_703 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for v_rgb2ycrcb
+FEATURE v_rgb2ycrcb xilinxd 1.0 04-nov-2018 uncounted 44975914DE75 \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+# Licenses for v_rgb2ycrcb_v2
+FEATURE v_rgb2ycrcb_v2 xilinxd 1.0 04-nov-2018 uncounted AC29E556068F \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_tc xilinxd 2019.09 04-nov-2018 uncounted 4F7DE483B232 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_tc,ip,evaluation,_211561961_0_0_949 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for v_tc
+FEATURE v_tc xilinxd 1.0 04-nov-2018 uncounted 1EAACD849AA9 \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_tpg xilinxd 2019.09 04-nov-2018 uncounted F09E56B1061E \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_tpg,ip,evaluation,_211561961_0_0_142 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for v_tpg
+FEATURE v_tpg xilinxd 1.0 04-nov-2018 uncounted 9F6E1181F342 \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_ycrcb2rgb_v2 xilinxd 2019.09 04-nov-2018 uncounted \
+94A65BED83BC \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_ycrcb2rgb_v2,ip,evaluation,_211561961_0_0_746 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for v_ycrcb2rgb_v2
+FEATURE v_ycrcb2rgb_v2 xilinxd 1.0 04-nov-2018 uncounted 104156783F08 \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_ycrcb2rgb xilinxd 2019.09 04-nov-2018 uncounted \
+371E4F2C6B3E \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_ycrcb2rgb,ip,evaluation,_211561961_0_0_741 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for v_ycrcb2rgb
+FEATURE v_ycrcb2rgb xilinxd 1.0 04-nov-2018 uncounted 31D5F03C3ED3 \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_rgb2ycrcb_v2 xilinxd 2019.09 04-nov-2018 uncounted \
+1F61FF1A0E5F \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_rgb2ycrcb_v2,ip,evaluation,_211561961_0_0_466 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU9EG-ES1_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+28FD142520E7 \
+VENDOR_STRING=guanxingbo,XCZU9EG-ES1_bitgen,software,evaluation,_211561961_0_0_760 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu9eg-es1 xilinxd 2019.09 04-nov-2018 uncounted \
+CFCF436AEA67 \
+VENDOR_STRING=guanxingbo,xczu9eg-es1,software,evaluation,_211561961_0_0_606 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU9EG-ES2_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+0E0D13F39D74 \
+VENDOR_STRING=guanxingbo,XCZU9EG-ES2_bitgen,software,evaluation,_211561961_0_0_307 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU3EG-ES1_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+4C27401B7236 \
+VENDOR_STRING=guanxingbo,XCZU3EG-ES1_bitgen,software,evaluation,_211561961_0_0_745 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu3eg-es1 xilinxd 2019.09 04-nov-2018 uncounted \
+18B9BA19C28C \
+VENDOR_STRING=guanxingbo,xczu3eg-es1,software,evaluation,_211561961_0_0_607 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU15EG-ES1_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+137F4FB3472F \
+VENDOR_STRING=guanxingbo,XCZU15EG-ES1_bitgen,software,evaluation,_211561961_0_0_945 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU15EG-ES1 xilinxd 2019.09 04-nov-2018 uncounted \
+D194F2AE21B5 \
+VENDOR_STRING=guanxingbo,XCZU15EG-ES1,software,evaluation,_211561961_0_0_062 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU19EG-ES2_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+027F7AF441ED \
+VENDOR_STRING=guanxingbo,XCZU19EG-ES2_bitgen,software,evaluation,_211561961_0_0_426 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU19EG-ES2 xilinxd 2019.09 04-nov-2018 uncounted \
+179D23D41659 \
+VENDOR_STRING=guanxingbo,XCZU19EG-ES2,software,evaluation,_211561961_0_0_925 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU9EG-ES2 xilinxd 2019.09 04-nov-2018 uncounted \
+646107A8CFBE \
+VENDOR_STRING=guanxingbo,XCZU9EG-ES2,software,evaluation,_211561961_0_0_861 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_proc_ss xilinxd 2019.09 04-nov-2018 uncounted \
+898668363C3D \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_proc_ss,ip,evaluation,_211561961_0_0_167 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for v_proc_ss
+FEATURE v_proc_ss xilinxd 1.0 04-nov-2018 uncounted 15EB96E2D4AF \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_mix xilinxd 2019.09 04-nov-2018 uncounted 21B3E3F1A8E7 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_mix,ip,evaluation,_211561961_0_0_065 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for v_mix
+FEATURE v_mix xilinxd 1.0 04-nov-2018 uncounted 956B59DAA5BE \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT mipi_csi2_rx_ctrl xilinxd 2019.09 04-nov-2018 uncounted \
+564C3C01EF89 \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,mipi_csi2_rx_ctrl,ip,evaluation,_211561961_0_0_023 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for mipi_csi2_rx_ctrl
+FEATURE mipi_csi2_rx_ctrl xilinxd 1.0 04-nov-2018 uncounted \
+CF9C632356D5 VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT v_hdmi xilinxd 2019.09 04-nov-2018 uncounted 8E8736A1BB6D \
+VENDOR_STRING=License_Type:Hardware_Evaluation;guanxingbo,v_hdmi,ip,evaluation,_211561961_0_0_529 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" NOTICE="The license \
+for this core was generated for guanxingbo on 09/05/2018It is \
+the responsibility of the Licensee of this core to adhere to \
+all terms and conditions of the applicable license agreement \
+when using this core." START=04-Sep-2018 TS_OK
+#
+# Licenses for v_hdmi
+FEATURE v_hdmi xilinxd 1.0 04-nov-2018 uncounted 35B7B78D6C74 \
+VENDOR_STRING=License_Type:Hardware_Evaluation \
+HOSTID=54271e6f5c65 ISSUER=Xilinx NOTICE="The license for this \
+core was generated for guanxingbo on 09/05/2018It is the \
+responsibility of the Licensee of this core to adhere to all \
+terms and conditions of the applicable license agreement when \
+using this core." TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU9EG xilinxd 2019.09 04-nov-2018 uncounted 6FCE791236F3 \
+VENDOR_STRING=guanxingbo,XCZU9EG,software,evaluation,_211561961_0_0_563 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xazu2eg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+2675599D4C92 \
+VENDOR_STRING=guanxingbo,xazu2eg_bitgen,software,evaluation,_211561961_0_0_029 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU2EG-EVAL xilinxd 2019.09 04-nov-2018 uncounted \
+9E593417626B \
+VENDOR_STRING=guanxingbo,XCZU2EG-EVAL,software,evaluation,_211561961_0_0_949 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU4EV-EVAL xilinxd 2019.09 04-nov-2018 uncounted \
+22B33FF060BD \
+VENDOR_STRING=guanxingbo,XCZU4EV-EVAL,software,evaluation,_211561961_0_0_927 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu4ev xilinxd 2019.09 04-nov-2018 uncounted 6C3BF7864088 \
+VENDOR_STRING=guanxingbo,xczu4ev,software,evaluation,_211561961_0_0_808 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu5ev xilinxd 2019.09 04-nov-2018 uncounted 21A6A955F759 \
+VENDOR_STRING=guanxingbo,xczu5ev,software,evaluation,_211561961_0_0_463 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU5EV-EVAL xilinxd 2019.09 04-nov-2018 uncounted \
+DF2ABF86C225 \
+VENDOR_STRING=guanxingbo,XCZU5EV-EVAL,software,evaluation,_211561961_0_0_420 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu7ev xilinxd 2019.09 04-nov-2018 uncounted DC284AFE5D88 \
+VENDOR_STRING=guanxingbo,xczu7ev,software,evaluation,_211561961_0_0_260 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu7ev_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+3877EEE364C2 \
+VENDOR_STRING=guanxingbo,xczu7ev_bitgen,software,evaluation,_211561961_0_0_922 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU11EG-EVAL xilinxd 2019.09 04-nov-2018 uncounted \
+8C9EE7BFDF8B \
+VENDOR_STRING=guanxingbo,XCZU11EG-EVAL,software,evaluation,_211561961_0_0_623 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu2cg xilinxd 2019.09 04-nov-2018 uncounted 4B6590E3484E \
+VENDOR_STRING=guanxingbo,xczu2cg,software,evaluation,_211561961_0_0_007 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu2cg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+642C00C74DF6 \
+VENDOR_STRING=guanxingbo,xczu2cg_bitgen,software,evaluation,_211561961_0_0_164 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu3cg xilinxd 2019.09 04-nov-2018 uncounted 3CD33396FCB3 \
+VENDOR_STRING=guanxingbo,xczu3cg,software,evaluation,_211561961_0_0_565 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu3cg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+2D151B42EDB6 \
+VENDOR_STRING=guanxingbo,xczu3cg_bitgen,software,evaluation,_211561961_0_0_768 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu4ev_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+D90666DEC574 \
+VENDOR_STRING=guanxingbo,xczu4ev_bitgen,software,evaluation,_211561961_0_0_825 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu2eg xilinxd 2019.09 04-nov-2018 uncounted CE202BC31B76 \
+VENDOR_STRING=guanxingbo,xczu2eg,software,evaluation,_211561961_0_0_104 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu2eg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+EF91B859293F \
+VENDOR_STRING=guanxingbo,xczu2eg_bitgen,software,evaluation,_211561961_0_0_763 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu3eg xilinxd 2019.09 04-nov-2018 uncounted 6C933F023047 \
+VENDOR_STRING=guanxingbo,xczu3eg,software,evaluation,_211561961_0_0_123 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu3eg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+8F274BE0575B \
+VENDOR_STRING=guanxingbo,xczu3eg_bitgen,software,evaluation,_211561961_0_0_949 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu4eg xilinxd 2019.09 04-nov-2018 uncounted C3CE05AD3F8C \
+VENDOR_STRING=guanxingbo,xczu4eg,software,evaluation,_211561961_0_0_362 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu4eg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+147D4B09F4C2 \
+VENDOR_STRING=guanxingbo,xczu4eg_bitgen,software,evaluation,_211561961_0_0_829 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu4cg xilinxd 2019.09 04-nov-2018 uncounted BFE5E65B7E16 \
+VENDOR_STRING=guanxingbo,xczu4cg,software,evaluation,_211561961_0_0_421 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu4cg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+4BDF4A89A957 \
+VENDOR_STRING=guanxingbo,xczu4cg_bitgen,software,evaluation,_211561961_0_0_125 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu5eg xilinxd 2019.09 04-nov-2018 uncounted 3E3480EF46BE \
+VENDOR_STRING=guanxingbo,xczu5eg,software,evaluation,_211561961_0_0_362 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu5eg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+C71E6DD25B9F \
+VENDOR_STRING=guanxingbo,xczu5eg_bitgen,software,evaluation,_211561961_0_0_149 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu5cg xilinxd 2019.09 04-nov-2018 uncounted BAF347799FE0 \
+VENDOR_STRING=guanxingbo,xczu5cg,software,evaluation,_211561961_0_0_023 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu5cg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+0EB0540A8033 \
+VENDOR_STRING=guanxingbo,xczu5cg_bitgen,software,evaluation,_211561961_0_0_004 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu7eg xilinxd 2019.09 04-nov-2018 uncounted 73FC81B14510 \
+VENDOR_STRING=guanxingbo,xczu7eg,software,evaluation,_211561961_0_0_403 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu7eg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+1D1F68726628 \
+VENDOR_STRING=guanxingbo,xczu7eg_bitgen,software,evaluation,_211561961_0_0_049 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu7cg xilinxd 2019.09 04-nov-2018 uncounted 4C0DD907079A \
+VENDOR_STRING=guanxingbo,xczu7cg,software,evaluation,_211561961_0_0_201 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu7cg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+EFCEDA2C7829 \
+VENDOR_STRING=guanxingbo,xczu7cg_bitgen,software,evaluation,_211561961_0_0_446 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU6EG-EVAL xilinxd 2019.09 04-nov-2018 uncounted \
+9BF9BA43B088 \
+VENDOR_STRING=guanxingbo,XCZU6EG-EVAL,software,evaluation,_211561961_0_0_446 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu6eg xilinxd 2019.09 04-nov-2018 uncounted 1020165F3E8E \
+VENDOR_STRING=guanxingbo,xczu6eg,software,evaluation,_211561961_0_0_629 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu6eg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+37DC9FA32698 \
+VENDOR_STRING=guanxingbo,xczu6eg_bitgen,software,evaluation,_211561961_0_0_269 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu6cg xilinxd 2019.09 04-nov-2018 uncounted 5C974B7DA5CC \
+VENDOR_STRING=guanxingbo,xczu6cg,software,evaluation,_211561961_0_0_320 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu6cg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+8142B2FB9B00 \
+VENDOR_STRING=guanxingbo,xczu6cg_bitgen,software,evaluation,_211561961_0_0_724 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu9cg xilinxd 2019.09 04-nov-2018 uncounted 2F25704DB4FC \
+VENDOR_STRING=guanxingbo,xczu9cg,software,evaluation,_211561961_0_0_106 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu9cg_bitgen xilinxd 2019.09 04-nov-2018 uncounted \
+D29E58D6804F \
+VENDOR_STRING=guanxingbo,xczu9cg_bitgen,software,evaluation,_211561961_0_0_008 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu11eg xilinxd 2019.09 04-nov-2018 uncounted 28FF07CD31E1 \
+VENDOR_STRING=guanxingbo,xczu11eg,software,evaluation,_211561961_0_0_765 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu15eg xilinxd 2019.09 04-nov-2018 uncounted 0719E74D8937 \
+VENDOR_STRING=guanxingbo,xczu15eg,software,evaluation,_211561961_0_0_167 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU17EG-EVAL xilinxd 2019.09 04-nov-2018 uncounted \
+572D738C76EE \
+VENDOR_STRING=guanxingbo,XCZU17EG-EVAL,software,evaluation,_211561961_0_0_900 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT xczu17eg xilinxd 2019.09 04-nov-2018 uncounted 39B1C0A08BE0 \
+VENDOR_STRING=guanxingbo,xczu17eg,software,evaluation,_211561961_0_0_049 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#  This license is valid for evaluation ( 60 days ) from Tue Sep 04 08:35:27 UTC 2018
+INCREMENT XCZU19EG xilinxd 2019.09 04-nov-2018 uncounted DAFE3DD5C94F \
+VENDOR_STRING=guanxingbo,XCZU19EG,software,evaluation,_211561961_0_0_901 \
+HOSTID=54271e6f5c65 ISSUER="Xilinx Inc" START=04-Sep-2018 \
+TS_OK
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE SDSoC_Tools xilinxd 2019.09 FC1EA968F48C COMPONENTS="SDK \
+XC7Z010 XC7Z030 XC7Z045 Simulation Analyzer XC7Z020 ap_cc \
+XC7Z100 ap_sdsoc xc7z015 xc7z035" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+# ----- REMOVE LINES BELOW HERE --------------------------

@@ -1,0 +1,7 @@
+advance.checkbox=false
+com.xilinx.sdk.targetmanager.default_peer_pref_linux_tcf_agent=QEMUtest
+dtb.loc=/home/guan/Xilinx/Project/xilinx-zcu102-2018.2/images/linux/zynqmp-qemu-multiarch-arm.dtb
+eclipse.preferences.version=1
+gdb.port=
+qemu.command.loc=
+qemu.exe.loc=/home/guan/Xilinx/Petalinux/tools/linux-i386/petalinux/bin/qemu-system-aarch64

@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"../../../bd/zedboard_base/ip/zedboard_base_rst_ps8_0_99M_0/sim/zedboard_base_rst_ps8_0_99M_0.vhd" \
+"../../../bd/zedboard_base/ip/zedboard_base_axi_smc_1/bd_0/ip/ip_1/sim/bd_b7bb_psr_aclk_0.vhd" \
+
+nosort

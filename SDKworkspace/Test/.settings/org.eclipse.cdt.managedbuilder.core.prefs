@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/xilinx.gnu.arm.a53.linux.exe.debug.1923648017/CPATH/delimiter=\:
+environment/buildEnvironmentInclude/xilinx.gnu.arm.a53.linux.exe.debug.1923648017/CPATH/operation=remove
+environment/buildEnvironmentInclude/xilinx.gnu.arm.a53.linux.exe.debug.1923648017/C_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/xilinx.gnu.arm.a53.linux.exe.debug.1923648017/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/xilinx.gnu.arm.a53.linux.exe.debug.1923648017/append=true
+environment/buildEnvironmentInclude/xilinx.gnu.arm.a53.linux.exe.debug.1923648017/appendContributed=true
+environment/buildEnvironmentLibrary/xilinx.gnu.arm.a53.linux.exe.debug.1923648017/LIBRARY_PATH/delimiter=\:
+environment/buildEnvironmentLibrary/xilinx.gnu.arm.a53.linux.exe.debug.1923648017/LIBRARY_PATH/operation=remove
+environment/buildEnvironmentLibrary/xilinx.gnu.arm.a53.linux.exe.debug.1923648017/append=true
+environment/buildEnvironmentLibrary/xilinx.gnu.arm.a53.linux.exe.debug.1923648017/appendContributed=true

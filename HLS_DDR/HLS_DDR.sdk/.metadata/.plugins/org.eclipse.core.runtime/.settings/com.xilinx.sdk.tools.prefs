@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.bss=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.data=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.data1=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.fixup=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.rodata=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.rodata1=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.sbss=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.sbss2=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.sdata=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.sdata2=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:.text=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:heap=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:heap-size=1024
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:stack=psu_ddr_0_MEM_0
+com.xilinx.sdk.linkgen.prefs.testprjlinux\:stack-size=1024
+eclipse.preferences.version=1

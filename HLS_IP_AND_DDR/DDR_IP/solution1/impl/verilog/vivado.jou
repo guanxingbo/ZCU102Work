@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Sep  3 18:15:35 2018
+# Process ID: 28725
+# Current directory: /home/guan/Xilinx/Project/HLS_IP_AND_DDR/DDR_IP/solution1/impl/verilog
+# Command line: vivado -notrace -mode batch -source run_vivadosyn.tcl
+# Log file: /home/guan/Xilinx/Project/HLS_IP_AND_DDR/DDR_IP/solution1/impl/verilog/vivado.log
+# Journal file: /home/guan/Xilinx/Project/HLS_IP_AND_DDR/DDR_IP/solution1/impl/verilog/vivado.jou
+#-----------------------------------------------------------
+source run_vivadosyn.tcl -notrace

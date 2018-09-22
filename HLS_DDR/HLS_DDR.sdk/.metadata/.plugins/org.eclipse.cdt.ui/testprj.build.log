@@ -1,0 +1,21 @@
+19:55:52 **** Auto Build of configuration Debug for project testprj ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../testprj_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from /home/guan/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-none/aarch64-none-elf/libc/usr/include/dirent.h:7:0,
+                 from ../../testprj_bsp/psu_cortexa53_0/include/xddr_hls_test.h:24,
+                 from ../src/helloworld.c:53:
+/home/guan/Xilinx/SDK/2018.2/gnu/aarch64/lin/aarch64-none/aarch64-none-elf/libc/usr/include/sys/dirent.h:10:2: error: #error "<dirent.h> not supported"
+ #error "<dirent.h> not supported"
+  ^~~~~
+In file included from ../src/helloworld.c:53:0:
+../../testprj_bsp/psu_cortexa53_0/include/xddr_hls_test.h:29:10: fatal error: sys/mman.h: No such file or directory
+ #include <sys/mman.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+
+19:55:53 Build Finished (took 960ms)
+

@@ -1,0 +1,10 @@
+16:51:32 **** Incremental Build of configuration Debug for project linuxtestprj ****
+make all 
+Building target: linuxtestprj
+Invoking: GCC C Linker
+gcc  -o "linuxtestprj"  ./src/linuxtestprj.o   
+Finished building target: linuxtestprj
+ 
+
+16:51:33 Build Finished (took 402ms)
+

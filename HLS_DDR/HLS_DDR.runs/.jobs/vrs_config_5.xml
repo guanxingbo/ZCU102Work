@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="zedboard_base_ddr_hls_test_0_0_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_ddr_hls_test_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zedboard_base_zynq_ultra_ps_e_0_0_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_zynq_ultra_ps_e_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zedboard_base_rst_ps8_0_99M_0_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_rst_ps8_0_99M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zedboard_base_axi_smc_1_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_axi_smc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zedboard_base_xbar_1_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zedboard_base_auto_ds_1_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_auto_ds_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zedboard_base_auto_pc_1_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zedboard_base_auto_ds_0_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_auto_ds_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zedboard_base_auto_ds_1_synth_1"/>
+	</Run>
+	<Run Id="zedboard_base_auto_pc_0_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="zedboard_base_auto_pc_1_synth_1"/>
+	</Run>
+	<Run Id="synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="zedboard_base_ddr_hls_test_0_0_synth_1"/>
+		<Parent Id="zedboard_base_zynq_ultra_ps_e_0_0_synth_1"/>
+		<Parent Id="zedboard_base_rst_ps8_0_99M_0_synth_1"/>
+		<Parent Id="zedboard_base_axi_smc_1_synth_1"/>
+		<Parent Id="zedboard_base_xbar_1_synth_1"/>
+		<Parent Id="zedboard_base_auto_ds_1_synth_1"/>
+		<Parent Id="zedboard_base_auto_pc_1_synth_1"/>
+		<Parent Id="zedboard_base_auto_ds_0_synth_1"/>
+		<Parent Id="zedboard_base_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="zedboard_base_ddr_hls_test_0_0_synth_1"/>
+		<Parent Id="zedboard_base_zynq_ultra_ps_e_0_0_synth_1"/>
+		<Parent Id="zedboard_base_rst_ps8_0_99M_0_synth_1"/>
+		<Parent Id="zedboard_base_axi_smc_1_synth_1"/>
+		<Parent Id="zedboard_base_xbar_1_synth_1"/>
+		<Parent Id="zedboard_base_auto_ds_1_synth_1"/>
+		<Parent Id="zedboard_base_auto_pc_1_synth_1"/>
+		<Parent Id="zedboard_base_auto_ds_0_synth_1"/>
+		<Parent Id="zedboard_base_auto_pc_0_synth_1"/>
+	</Run>
+</Runs>
+

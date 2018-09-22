@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="zedboard_base_processing_system7_0_0_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="zedboard_base_ddr_hls_test_0_0_synth_1" LaunchDir="/home/guan/Xilinx/Project/HLS_DDR/HLS_DDR.runs/zedboard_base_ddr_hls_test_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

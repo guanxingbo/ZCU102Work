@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Sep  5 17:27:36 2018
+# Process ID: 10460
+# Current directory: /home/guan/Xilinx/Project/DMAtest/DMAtest.runs/dmadesign_rst_ps8_0_99M_0_synth_1
+# Command line: vivado -log dmadesign_rst_ps8_0_99M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dmadesign_rst_ps8_0_99M_0.tcl
+# Log file: /home/guan/Xilinx/Project/DMAtest/DMAtest.runs/dmadesign_rst_ps8_0_99M_0_synth_1/dmadesign_rst_ps8_0_99M_0.vds
+# Journal file: /home/guan/Xilinx/Project/DMAtest/DMAtest.runs/dmadesign_rst_ps8_0_99M_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source dmadesign_rst_ps8_0_99M_0.tcl -notrace
